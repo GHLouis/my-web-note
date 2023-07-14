@@ -35,10 +35,13 @@ $$\sum F_{\theta}=0,(F+\mathrm{d}F)\cos\frac{\mathrm{d}\theta}{2}-F\cos\frac{\ma
 
 由(1)得到
 $$\mathrm{d}F_{r}=(2F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}\approx(2F+\mathrm{d}F)\frac{\mathrm{d}\theta}{2}\approx F\mathrm{d}\theta  \quad(3)$$
+
 由(2)得到
 $$\mathrm{d}F\cos\frac{\mathrm{d}\theta}{2}=f\mathrm{d}F_{r} \rightarrow \mathrm{d}F=f\mathrm{d}F_{r}  \quad(4)$$
+
 把（3）代入（4）中，得到
 $$dF=fFd\theta$$
+
 分量变量，把有F的放到一边，有$\theta$的放到另一边：
 $$\frac{dF}{F}=fd\theta$$
 左右两边同时积分：
