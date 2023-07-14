@@ -30,7 +30,7 @@ $$
 ## 公式推导
 平衡方程
 
-$$$\sum F_{r}=0,\mathrm{d}F_{r}-(F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}-F\sin\frac{\mathrm{d}\theta}{2}=0 \quad(1)
+$$\sum F_{r}=0,\mathrm{d}F_{r}-(F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}-F\sin\frac{\mathrm{d}\theta}{2}=0 \quad(1)
 $$
 
 $$
