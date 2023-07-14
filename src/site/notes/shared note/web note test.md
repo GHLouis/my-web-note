@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/shared note/web note test/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/shared note/web note test/","tags":["gardenEntry"],"created":"","updated":""}
 ---
 
 
@@ -30,24 +30,40 @@ $$
 ## 公式推导
 平衡方程
 
-$$\sum F_{r}=0,\mathrm{d}F_{r}-(F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}-F\sin\frac{\mathrm{d}\theta}{2}=0 \quad(1)$$
-$$\sum F_{\theta}=0,(F+\mathrm{d}F)\cos\frac{\mathrm{d}\theta}{2}-F\cos\frac{\mathrm{d}\theta}{2}-f\mathrm{d}F_{r}=0 \quad(2)$$
+$$$\sum F_{r}=0,\mathrm{d}F_{r}-(F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}-F\sin\frac{\mathrm{d}\theta}{2}=0 \quad(1)
+$$
+
+$$
+\sum F_{\theta}=0,(F+\mathrm{d}F)\cos\frac{\mathrm{d}\theta}{2}-F\cos\frac{\mathrm{d}\theta}{2}-f\mathrm{d}F_{r}=0 \quad(2)
+$$
 
 由(1)得到
-$$\mathrm{d}F_{r}=(2F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}\approx(2F+\mathrm{d}F)\frac{\mathrm{d}\theta}{2}\approx F\mathrm{d}\theta  \quad(3)$$
+$$
+\mathrm{d}F_{r}=(2F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}\approx(2F+\mathrm{d}F)\frac{\mathrm{d}\theta}{2}\approx F\mathrm{d}\theta  \quad(3)
+$$
 
 由(2)得到
 $$\mathrm{d}F\cos\frac{\mathrm{d}\theta}{2}=f\mathrm{d}F_{r} \rightarrow \mathrm{d}F=f\mathrm{d}F_{r}  \quad(4)$$
 
 把（3）代入（4）中，得到
-$$dF=fFd\theta$$
+$$
+dF=fFd\theta
+$$
 
 分量变量，把有F的放到一边，有$\theta$的放到另一边：
-$$\frac{dF}{F}=fd\theta$$
+$$
+\frac{dF}{F}=fd\theta
+$$
 左右两边同时积分：
-$$\int\frac{dF}{F}=\int fd\theta$$
+$$
+\int\frac{dF}{F}=\int fd\theta
+$$
 得到：
-$$\ln F=f\theta + C_0$$
+$$
+\ln F=f\theta + C_0
+$$
 两边同时取对数：
-$$F=e^{f\theta + C_0}=e^{f\theta}e^{C_0}=Ae^{f\theta}$$
+$$
+F=e^{f\theta + C_0}=e^{f\theta}e^{C_0}=Ae^{f\theta}
+$$
 最后看书，根据边界条件得到$F$的表达式
