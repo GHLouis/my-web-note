@@ -33,7 +33,8 @@ $$
 $$\sum F_{r}=0,\mathrm{d}F_{r}-(F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}-F\sin\frac{\mathrm{d}\theta}{2}=0 \quad(1)$$
 $$\sum F_{\theta}=0,(F+\mathrm{d}F)\cos\frac{\mathrm{d}\theta}{2}-F\cos\frac{\mathrm{d}\theta}{2}-f\mathrm{d}F_{r}=0 \quad(2)$$
 
-由(1)得到$$\mathrm{d}F_{r}=(2F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}\approx(2F+\mathrm{d}F)\frac{\mathrm{d}\theta}{2}\approx F\mathrm{d}\theta  \quad(3)$$
+由(1)得到
+$$\mathrm{d}F_{r}=(2F+\mathrm{d}F)\sin\frac{\mathrm{d}\theta}{2}\approx(2F+\mathrm{d}F)\frac{\mathrm{d}\theta}{2}\approx F\mathrm{d}\theta  \quad(3)$$
 由(2)得到
 $$\mathrm{d}F\cos\frac{\mathrm{d}\theta}{2}=f\mathrm{d}F_{r} \rightarrow \mathrm{d}F=f\mathrm{d}F_{r}  \quad(4)$$
 把（3）代入（4）中，得到
